@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/models"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/store"
+	"github.com/g-hyperx/go-oauth2/models"
+	"github.com/g-hyperx/go-oauth2/store"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

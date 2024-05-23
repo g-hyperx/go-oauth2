@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"strings"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/errors"
+	"github.com/g-hyperx/go-oauth2/errors"
 )
 
 type (

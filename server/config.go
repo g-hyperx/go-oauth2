@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"time"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git"
+	"github.com/g-hyperx/go-oauth2"
 )
 
 // Config configuration parameters

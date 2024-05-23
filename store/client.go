@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git"
+	"github.com/g-hyperx/go-oauth2"
 )
 
 // NewClientStore create client store

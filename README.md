@@ -31,7 +31,7 @@
 ### Download and install
 
 ```bash
-go get -u -v dev.azure.com/ghpx/opensources/go-oauth2.git/...
+go get -u -v github.com/g-hyperx/go-oauth2/...
 ```
 
 ### Create file `server.go`
@@ -43,11 +43,11 @@ import (
 	"log"
 	"net/http"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/errors"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/manage"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/models"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/server"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/store"
+	"github.com/g-hyperx/go-oauth2/errors"
+	"github.com/g-hyperx/go-oauth2/manage"
+	"github.com/g-hyperx/go-oauth2/models"
+	"github.com/g-hyperx/go-oauth2/server"
+	"github.com/g-hyperx/go-oauth2/store"
 )
 
 func main() {
@@ -102,6 +102,7 @@ go build server.go
 ```
 
 ### Open in your web browser
+
 **Authorization Request**:
 [http://localhost:9096/authorize?client_id=000000&response_type=code](http://localhost:9096/authorize?client_id=000000&response_type=code)
 
@@ -138,7 +139,7 @@ Simulation examples of authorization code model, please check [example](/example
 ```go
 
 import (
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/generates"
+	"github.com/g-hyperx/go-oauth2/generates"
 	"github.com/dgrijalva/jwt-go"
 )
 
@@ -189,9 +190,9 @@ Copyright (c) 2016 Lyric
 [build-status-image]: https://travis-ci.org/go-oauth2/oauth2.svg?branch=master
 [codecov-url]: https://codecov.io/gh/go-oauth2/oauth2
 [codecov-image]: https://codecov.io/gh/go-oauth2/oauth2/branch/master/graph/badge.svg
-[reportcard-url]: https://goreportcard.com/report/dev.azure.com/ghpx/opensources/go-oauth2.git
-[reportcard-image]: https://goreportcard.com/badge/dev.azure.com/ghpx/opensources/go-oauth2.git
-[godoc-url]: https://godoc.org/dev.azure.com/ghpx/opensources/go-oauth2.git
-[godoc-image]: https://godoc.org/dev.azure.com/ghpx/opensources/go-oauth2.git?status.svg
+[reportcard-url]: https://goreportcard.com/report/github.com/g-hyperx/go-oauth2
+[reportcard-image]: https://goreportcard.com/badge/github.com/g-hyperx/go-oauth2
+[godoc-url]: https://godoc.org/github.com/g-hyperx/go-oauth2
+[godoc-image]: https://godoc.org/github.com/g-hyperx/go-oauth2?status.svg
 [license-url]: http://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/express.svg

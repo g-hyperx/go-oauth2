@@ -3,7 +3,7 @@ package models
 import (
 	"time"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git"
+	"github.com/g-hyperx/go-oauth2"
 )
 
 // NewToken create to token model instance

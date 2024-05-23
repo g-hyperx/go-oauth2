@@ -3,7 +3,7 @@ package manage_test
 import (
 	"testing"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/manage"
+	"github.com/g-hyperx/go-oauth2/manage"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

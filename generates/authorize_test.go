@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/generates"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/models"
+	"github.com/g-hyperx/go-oauth2"
+	"github.com/g-hyperx/go-oauth2/generates"
+	"github.com/g-hyperx/go-oauth2/models"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

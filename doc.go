@@ -3,9 +3,9 @@
 //     package main
 //     import (
 //         "net/http"
-//         "dev.azure.com/ghpx/opensources/go-oauth2.git/manage"
-//         "dev.azure.com/ghpx/opensources/go-oauth2.git/server"
-//         "dev.azure.com/ghpx/opensources/go-oauth2.git/store"
+//         "github.com/g-hyperx/go-oauth2/manage"
+//         "github.com/g-hyperx/go-oauth2/server"
+//         "github.com/g-hyperx/go-oauth2/store"
 //     )
 //     func main() {
 //         manager := manage.NewDefaultManager()

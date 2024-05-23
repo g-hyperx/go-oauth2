@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/errors"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/generates"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/models"
+	"github.com/g-hyperx/go-oauth2"
+	"github.com/g-hyperx/go-oauth2/errors"
+	"github.com/g-hyperx/go-oauth2/generates"
+	"github.com/g-hyperx/go-oauth2/models"
 )
 
 // NewDefaultManager create to default authorization management instance

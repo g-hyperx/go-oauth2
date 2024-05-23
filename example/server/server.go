@@ -13,13 +13,13 @@ import (
 	"os"
 	"time"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/generates"
+	"github.com/g-hyperx/go-oauth2/generates"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/errors"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/manage"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/models"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/server"
-	"dev.azure.com/ghpx/opensources/go-oauth2.git/store"
+	"github.com/g-hyperx/go-oauth2/errors"
+	"github.com/g-hyperx/go-oauth2/manage"
+	"github.com/g-hyperx/go-oauth2/models"
+	"github.com/g-hyperx/go-oauth2/server"
+	"github.com/g-hyperx/go-oauth2/store"
 	"github.com/go-session/session"
 )
 

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"dev.azure.com/ghpx/opensources/go-oauth2.git"
+	"github.com/g-hyperx/go-oauth2"
 	"github.com/google/uuid"
 )
 
